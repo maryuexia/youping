@@ -37,7 +37,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("用户服务")
                 .description("接口文档说明")
-                .version("2.0")
+                .version("1.0")
                 .build();
     }
 
