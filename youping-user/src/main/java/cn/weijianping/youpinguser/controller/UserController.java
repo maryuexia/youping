@@ -5,9 +5,7 @@ import cn.weijianping.youpingcommon.reult.ResultVoUtil;
 import cn.weijianping.youpinguser.pojo.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @Api(tags = "用户")
 @RestController
@@ -24,5 +22,11 @@ public class UserController {
                 .password("123456")
                 .password("88888888")
                 .build());
+    }
+
+    @ApiOperation("注册一个用户")
+    @PostMapping("/create")
+    public ResultVo create(@RequestBody User user){
+        return ResultVoUtil.success();
     }
 }
