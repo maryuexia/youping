@@ -11,7 +11,7 @@
     <groupId>cn.weijianping</groupId>
     <artifactId>youping</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>youping-user</name>
+    <name>youping</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

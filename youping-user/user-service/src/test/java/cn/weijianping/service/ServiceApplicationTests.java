@@ -1,4 +1,4 @@
-package cn.weijianping.youpinguser;
+package cn.weijianping.service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class YoupingUserApplicationTests {
+public class ServiceApplicationTests {
 
     @Test
     public void contextLoads() {
